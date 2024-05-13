@@ -1,0 +1,40 @@
+#moving-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: not-allowed;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+#moving-button:hover {
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  cursor: pointer;
+}
+.bu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main h2 {
+  align-items: center;
+  text-align: center;
+}
+.main {
+  margin-top: 16%;
+}
+.yes-bu {
+  background-color: #007bff;
+  border-radius: 50%;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
